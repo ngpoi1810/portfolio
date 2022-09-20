@@ -5,10 +5,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    fontFamily: {
-      pacifico: ['Pacifico', cursive]
-    }
+    extend: {
+      fontFamily: {
+        'pacifico': ['Pacifico', 'cursive'],
+      },
+      backgroundImage: {
+        'hero-pattern':"url('/images/bg-hero.png')",
+      },
+    },
   },
   plugins: [],
 }
