@@ -55,7 +55,7 @@ export default function Home() {
                 FRONT-END WEB DEVELOPER
               </h2>
               <p className="text-lg mb-5">Welcome to my personal website!</p>
-              <button className={cl('btn')}>Get CV</button>
+              <button className={cl("btn")}>Get CV</button>
             </div>
             <div className="">
               <Image
@@ -68,8 +68,45 @@ export default function Home() {
           </div>
         </section>
       </header>
-      <section className="max-w-screen-xl m-auto">
-        <h2>MY STORY</h2>
+      <section className="max-w-screen-xl m-auto my-20">
+        <h2 className="text-5xl mb-5">My story</h2>
+        <div className="flex gap-16">
+          <div className="flex-1">
+            <p className="text-lg mb-8">
+              I was born and raised in Vietnam. When I was 15, I came to America
+              on my own as a transfer student. After graduating in Florida, I
+              attended Rhodes College in Tennessee as a Computer Science
+              student. The COVID-19 pandemic forced me to move to Seattle in
+              2020 when I started my in-depth front-end programming journey.
+            </p>
+            <div className="py-6 px-8 shadow-orange-50 rounded-2xl border-white border-solid border">
+              <h3 className="text-2xl">A little bit about me</h3>
+              <p>
+                In my free time, I like to watch Youtube and Netflix, and
+                playing games. My favorite youtubers are Danny Gonzales and Drew
+                Gooden (Go Greg and Little Stinkers!). Some games I usually play
+                are Wild Rift, Clash of Clans, and League of Legends.
+              </p>
+            </div>
+          </div>
+          <div className={cl("sphere")}>
+            <div className={cl("layer")}>
+              <div className={cl("ambience")}></div>
+            </div>
+            <div className={cl("layer")}>
+              <div className={cl("ocean-glare")}></div>
+            </div>
+            <div className={cl("layer","land")} ></div>
+            <div className={cl("layer","clouds")} ></div>
+            <div className={cl("layer","darkside")} ></div>
+            <div className={cl("layer",)}>
+              <div className={cl("edge",)}></div>
+            </div>
+            <div className={cl("layer")}>
+              <div className={cl("glare")}></div>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
